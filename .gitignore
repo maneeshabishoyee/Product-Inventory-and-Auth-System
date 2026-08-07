@@ -1,0 +1,81 @@
+# ===============================
+# 🔹 Backend (Spring Boot)
+# ===============================
+
+.idea/
+.metadata/
+*.iml
+
+
+# Build folders
+PRODUCT_SERVICE/target/
+PRODUCT_SERVICE/build/
+PRODUCT_SERVICE/out/
+
+# Logs
+PRODUCT_SERVICE/*.log
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Application secrets - can be removed but here I needed it
+# PRODUCT_SERVICE/src/main/resources/application-dev.properties
+
+# Maven Wrapper Jar (optional)
+PRODUCT_SERVICE/.mvn/wrapper/maven-wrapper.jar
+
+# STS / Eclipse
+PRODUCT_SERVICE/.apt_generated
+PRODUCT_SERVICE/.classpath
+PRODUCT_SERVICE/.factorypath
+PRODUCT_SERVICE/.project
+PRODUCT_SERVICE/.settings/
+PRODUCT_SERVICE/.springBeans
+PRODUCT_SERVICE/.sts4-cache
+
+# IntelliJ
+PRODUCT_SERVICE/.idea/
+PRODUCT_SERVICE/*.iml
+PRODUCT_SERVICE/*.ipr
+PRODUCT_SERVICE/*.iws
+
+# VS Code
+.vscode/
+
+# NetBeans
+PRODUCT_SERVICE/nbproject/private/
+PRODUCT_SERVICE/nbbuild/
+PRODUCT_SERVICE/dist/
+PRODUCT_SERVICE/nbdist/
+PRODUCT_SERVICE/.nb-gradle/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# ===============================
+# 🔹 Frontend (React / Vite)
+# ===============================
+
+# Dependencies
+product-service-frontend/node_modules/
+
+# Production builds
+product-service-frontend/dist/
+product-service-frontend/build/
+
+# Vite cache
+product-service-frontend/.vite/
+
+# Logs
+product-service-frontend/npm-debug.log*
+product-service-frontend/yarn-debug.log*
+product-service-frontend/yarn-error.log*
+
+# ===============================
+# 🔹 Common
+# ===============================
+
+HELP.md
