@@ -61,35 +61,38 @@ Product-Inventory-and-Auth-System/
 └── README.md
 ```
 
-## ⚙️ Installation and Setup
 
-### 1. Clone Repository
+---
+
+## ⚙️ Installation & Setup
+
+### Prerequisites
+
+- Java 17 or compatible version used by the project
+- Maven
+- Node.js and npm
+- MySQL
+- Git
+
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/maneeshabishoyee/Product-Inventory-and-Auth-System.git
+
+cd Product-Inventory-and-Auth-System
 ```
 
 ### 2. Backend Setup
 
-Navigate to the backend folder:
+Navigate to the backend directory:
 
 ```bash
 cd PRODUCT_SERVICE
 ```
 
-Configure your MySQL database and update the database credentials in the Spring Boot application configuration file.
+Configure your MySQL database and application properties.
 
-Make sure your database and email configuration are correct.
-
-Run the backend:
-
-**Windows:**
-
-```bash
-mvnw.cmd spring-boot:run
-```
-
-**Or use Maven:**
+Run the Spring Boot application:
 
 ```bash
 mvn spring-boot:run
@@ -101,21 +104,16 @@ Open another terminal:
 
 ```bash
 cd product-service-frontend
-```
 
-Install dependencies:
-
-```bash
 npm install
-```
 
-Start the frontend:
-
-```bash
 npm run dev
 ```
 
-Open the local URL displayed in your terminal.
+### 4. Access the Application
+
+Open the frontend URL shown in your terminal.
+
 
 ## 📖 API Documentation
 
