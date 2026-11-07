@@ -8,71 +8,34 @@ The Product Inventory and Authentication System is a web-based application desig
 
 The application provides secure user registration, login, email OTP verification and product management through REST APIs.
 
+
 ## ✨ Features
 
-### 🔐 User Authentication
-- User Registration
-- User Login
-- Email OTP Verification
-- JWT Authentication
-- Spring Security
-- Secure Password Handling
+- 🔐 User registration and login
+- 📧 Email OTP verification
+- 🔑 JWT-based authentication
+- 👥 Role-based access control
+- 📦 Product CRUD operations
+- 🔍 Product search and filtering
+- 📊 Inventory management
+- 🌐 REST API integration
+- 📱 Responsive frontend
 
-### 📦 Product Management
-- Add New Products
-- View Product Details
-- Update Product Information
-- Delete Products
-- Search Products
-- Category-based Product Management
-- Pagination
-- Price Range Filtering
+## 🛠️ Technology Stack
 
-### 📊 Inventory Management
-- Increase Product Stock
-- Decrease Product Stock
-- Manage Product Availability
-- Product Status Management
+### Backend
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
 
-### 💻 Frontend
-- Responsive User Interface
-- React Components
-- Login and Registration Pages
-- Product Management Interface
-- API Integration using Axios
-- Toast Notifications
+### Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-## 🛠️ Technologies Used
+### Database
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-**Backend**
-- Java 17
-- Spring Boot
-- Spring MVC
-- Spring Data JPA
-- Spring Security
-- Hibernate
-- JWT
-- Lombok
-- Maven
 
-**Frontend**
-- React.js
-- JavaScript
-- Vite
-- Tailwind CSS
-- Axios
-- React Router
-- React Toastify
-
-**Database**
-- MySQL
-
-**Tools**
-- IntelliJ IDEA
-- Visual Studio Code
-- Postman
-- Swagger UI
-- Git and GitHub
 
 ## 📂 Project Structure
 
